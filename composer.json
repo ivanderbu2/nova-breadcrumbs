@@ -1,6 +1,6 @@
 {
-    "name": "chris-ware/nova-breadcrumbs",
-    "description": "A Laravel Nova tool.",
+    "name": "ivanderbu2/nova-breadcrumbs",
+    "description": "A Laravel Nova tool. Fork of chris-ware/nova-breadcrumbs",
     "keywords": [
         "laravel",
         "nova"
@@ -8,17 +8,17 @@
     "license": "MIT",
     "require": {
         "php": ">=7.1.0",
-        "laravel/nova": ">=2.0.0 <=2.0.9"
+        "laravel/nova": "*"
     },
     "autoload": {
         "psr-4": {
-            "ChrisWare\\NovaBreadcrumbs\\": "src/"
+            "Ivanderbu2\\NovaBreadcrumbs\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ChrisWare\\NovaBreadcrumbs\\ToolServiceProvider"
+                "Ivanderbu2\\NovaBreadcrumbs\\ToolServiceProvider"
             ]
         }
     },
